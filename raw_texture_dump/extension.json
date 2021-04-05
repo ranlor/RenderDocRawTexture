@@ -1,0 +1,9 @@
+{
+    "extension_api": 1,
+    "name": "texture raw dump",
+    "version": "1.0",
+    "minimum_renderdoc": "1.12",
+    "description": "This can adds the option to export textures as raw bunary data for deugging",
+    "author": "Your name <your@email.com>",
+    "url": "url/to/repository"
+}
