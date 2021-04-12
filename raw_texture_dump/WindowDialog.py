@@ -65,7 +65,6 @@ class WindowDialog(qrd.CaptureViewer):
         sub.sample = self.mSample
         sub.slice = 1
 
-        print(sub.mips, self.mResourceId, sub.sample)
         texBytes = rc.GetTextureData(self.mResourceId, sub)
 
         if (len(texBytes) == 0 ):
